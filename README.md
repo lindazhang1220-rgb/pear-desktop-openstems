@@ -17,7 +17,7 @@ Pear Desktop is the foundation. OpenStems is the added music-control experience.
  ·
 <a href="#use-it-in-your-daw">DAW setup</a>
  ·
-<a href="#pear-openstems-中文">中文</a>
+<a href="#中文说明">中文</a>
 </p>
 
 </div>
@@ -87,62 +87,71 @@ for the moment.
 
 ## Why It Feels Better
 
-### High-Quality Playback First
-
-When you just want to listen, Pear OpenStems plays the original song cleanly.
-When you use OpenStems, the goal is still musical: preserve a high-quality
-44.1 kHz listening experience while giving you control over key, vocal level,
-and stem balance.
-
-### Low-Latency Live Control
-
-Live control only matters if it responds while you are using it. Pear OpenStems
-is designed for quick adjustments during playback, so singers, streamers, K歌
-users, and performers can shape the song without stopping the moment.
-
-### One Click To OBS
-
-For everyday livestreaming, open OBS, play music in Pear OpenStems, and click
-Send to OBS. Your current OpenStems mix becomes the music source for your scene.
-
-### One Click To Your DAW
-
-For singing livestreams and recording sessions, OBS is often not enough. You may
-want the backing track inside your DAW so it can sit beside your vocal input,
-vocal effects, monitor mix, recording track, and master output.
-
-Open your DAW, load the Pear OpenStems Audio Unit plug-in on an instrument or
-Audio Unit Generator track, then click Send to DAW in Pear OpenStems.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>High-Quality Playback First</h3>
+      <p>When you just want to listen, Pear OpenStems plays the original song cleanly. When you use OpenStems, the goal is still musical: preserve a high-quality 44.1 kHz listening experience while giving you control over key, vocal level, and stem balance.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Low-Latency Live Control</h3>
+      <p>Live control only matters if it responds while you are using it. Pear OpenStems is designed for quick adjustments during playback, so singers, streamers, K歌 users, and performers can shape the song without stopping the moment.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>One Click To OBS</h3>
+      <p>For everyday livestreaming, open OBS, play music in Pear OpenStems, and click Send to OBS. Your current OpenStems mix becomes the music source for your scene.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>One Click To Your DAW</h3>
+      <p>For singing livestreams and recording sessions, OBS is often not enough. You may want the backing track inside your DAW so it can sit beside your vocal input, vocal effects, monitor mix, recording track, and master output.</p>
+      <p>Open your DAW, load the Pear OpenStems Audio Unit plug-in on an instrument or Audio Unit Generator track, then click Send to DAW in Pear OpenStems.</p>
+    </td>
+  </tr>
+</table>
 
 ## See It In Action
 
-### Realtime Stem Control
-
-![Pear OpenStems realtime stem controls](docs/assets/screenshots/pear-openstems-realtime.png)
-
-### Karaoke And Backing Tracks
-
-![OpenStems karaoke backing track controls](docs/assets/screenshots/pear-openstems-karaoke.png)
-
-### Up To 8 Music Parts
-
-![OpenStems 8-stem controls](docs/assets/screenshots/pear-openstems-8-stems.png)
-
-### Send Music To OBS
-
-![Pear OpenStems sending audio to OBS](docs/assets/screenshots/pear-openstems-send-to-obs.png)
-
-### OBS Livestreaming
-
-![Pear OpenStems in OBS](docs/assets/screenshots/pear-openstems-obs.png)
-
-### Send Backing Tracks To Recording Software
-
-![Pear OpenStems sending audio to recording software](docs/assets/screenshots/pear-openstems-send-to-daw.png)
-
-### Singing Livestreams And Recording Software
-
-![Pear OpenStems in recording software](docs/assets/screenshots/pear-openstems-recording-software.png)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Realtime Stem Control</h3>
+      <img src="docs/assets/screenshots/pear-openstems-realtime.png" alt="Pear OpenStems realtime stem controls">
+    </td>
+    <td width="50%" valign="top">
+      <h3>Karaoke And Backing Tracks</h3>
+      <img src="docs/assets/screenshots/pear-openstems-karaoke.png" alt="OpenStems karaoke backing track controls">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Up To 8 Music Parts</h3>
+      <img src="docs/assets/screenshots/pear-openstems-8-stems.png" alt="OpenStems 8-stem controls">
+    </td>
+    <td width="50%" valign="top">
+      <h3>Send Music To OBS</h3>
+      <img src="docs/assets/screenshots/pear-openstems-send-to-obs.png" alt="Pear OpenStems sending audio to OBS">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>OBS Livestreaming</h3>
+      <img src="docs/assets/screenshots/pear-openstems-obs.png" alt="Pear OpenStems in OBS">
+    </td>
+    <td width="50%" valign="top">
+      <h3>Send Backing Tracks To Recording Software</h3>
+      <img src="docs/assets/screenshots/pear-openstems-send-to-daw.png" alt="Pear OpenStems sending audio to recording software">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Singing Livestreams And Recording Software</h3>
+      <img src="docs/assets/screenshots/pear-openstems-recording-software.png" alt="Pear OpenStems in recording software">
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
+</table>
 
 ## Install The macOS Package
 
@@ -194,28 +203,39 @@ audible, then send music from the player.
 
 ## Quick Starts
 
-### Change Key
-
-1. Play a song.
-2. Move the key control up or down.
-3. Sing or play along in the new key.
-4. Return to `0` for the original key.
-
-### Make A Karaoke Or Cover Backing Track
-
-1. Open the OpenStems control center.
-2. Choose Karaoke HQ when you want Lead Vocal and Accompaniment control.
-3. Lower or mute the lead vocal.
-4. Adjust the accompaniment level.
-5. Sing, rehearse, record, or stream.
-
-### Practice An Instrument
-
-1. Open the OpenStems control center.
-2. Choose Realtime or 8 Stems HQ.
-3. Lower the part you want to play yourself.
-4. Keep the rest of the band in the mix.
-5. Practice or perform along with the song.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Change Key</h3>
+      <ol>
+        <li>Play a song.</li>
+        <li>Move the key control up or down.</li>
+        <li>Sing or play along in the new key.</li>
+        <li>Return to <code>0</code> for the original key.</li>
+      </ol>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Make A Karaoke Or Cover Backing Track</h3>
+      <ol>
+        <li>Open the OpenStems control center.</li>
+        <li>Choose Karaoke HQ when you want Lead Vocal and Accompaniment control.</li>
+        <li>Lower or mute the lead vocal.</li>
+        <li>Adjust the accompaniment level.</li>
+        <li>Sing, rehearse, record, or stream.</li>
+      </ol>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Practice An Instrument</h3>
+      <ol>
+        <li>Open the OpenStems control center.</li>
+        <li>Choose Realtime or 8 Stems HQ.</li>
+        <li>Lower the part you want to play yourself.</li>
+        <li>Keep the rest of the band in the mix.</li>
+        <li>Practice or perform along with the song.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
 ## Troubleshooting
 
@@ -229,7 +249,10 @@ audible, then send music from the player.
 
 ---
 
-# Pear OpenStems 中文
+## 中文说明
+
+<details>
+<summary><strong>Pear OpenStems 中文</strong></summary>
 
 <div align="center">
 
@@ -443,3 +466,5 @@ Google, YouTube, or YouTube Music. Trademarks belong to their respective owners.
 Pear OpenStems 基于官方开源
 [Pear Desktop](https://github.com/pear-devs/pear-desktop) 项目开发。本项目与
 Google、YouTube 或 YouTube Music 没有关联、授权、背书或官方连接。相关商标归其各自所有者所有。
+
+</details>
