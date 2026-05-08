@@ -2,66 +2,102 @@
 
 <div align="center">
 
-<h3>Live stem control for singers, streamers, cover creators, and musicians.</h3>
+<h3>Turn a music player into a live backing track, stem mixer, karaoke tool, and performance source.</h3>
 
 <p>
 Built on the official open-source
 <a href="https://github.com/pear-devs/pear-desktop">Pear Desktop</a> project.
-Pear Desktop provides the player foundation. OpenStems adds the live music-control layer.
+Pear Desktop is the player foundation. OpenStems is the added music-control experience.
 </p>
 
 <p>
 <a href="https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases"><strong>Download macOS .pkg</strong></a>
  |
-<a href="#what-it-does">What it does</a>
+<a href="#where-it-helps">Where it helps</a>
  |
-<a href="#obs">OBS</a>
+<a href="#three-ways-to-shape-the-music">Stem modes</a>
  |
-<a href="#daw--audio-unit">DAW / Audio Unit</a>
+<a href="#use-it-in-obs">OBS</a>
  |
-<a href="#screenshots">Screenshots</a>
+<a href="#use-it-in-your-daw">DAW / Audio Unit</a>
  |
 <a href="#chinese-guide">Chinese Guide</a>
 </p>
 
 </div>
 
-![Pear OpenStems realtime stem controls](docs/assets/screenshots/pear-openstems-realtime.png)
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-realtime.png" alt="Pear OpenStems realtime stem controls" width="760">
+</p>
 
-## What It Does
+## The Music Player, Unlocked
 
-Pear OpenStems turns a desktop music player into a live backing-track tool.
+Most music players keep a song locked as one flat mix.
 
-- Change key while the song plays.
-- Lower or mute the lead vocal.
-- Balance vocals, drums, bass, piano, and other stems.
-- Send the current mix to OBS.
-- Send accompaniment to a DAW through the Pear OpenStems Audio Unit plug-in.
+Pear OpenStems keeps the familiar Pear Desktop listening experience, then gives the song musical handles: key, lead vocal, accompaniment, stems, OBS output, and DAW output.
 
-## Made For
+Use it when you want the track to become part of a live set, a stream, a cover, a rehearsal, or a recording session.
 
-- Livestream music in OBS without exporting files.
-- Singing livestreams with vocals, effects, monitoring, and backing tracks in a DAW.
-- Karaoke, covers, vocal practice, and quick key changes.
-- Instrument rehearsal, arrangement study, and performance backing tracks.
+## Where It Helps
 
-## Stem Modes
+### Sing
+
+Change key, lower the lead vocal, and make the track fit your voice.
+
+### Stream
+
+Send a controllable music mix to OBS without exporting audio files.
+
+### Perform
+
+Keep the band in the mix, reduce the part you want to play yourself, and rehearse with the original song.
+
+### Create
+
+Send the backing track into your production setup while your vocal chain, monitor mix, and effects stay in your DAW.
+
+## Three Ways To Shape The Music
+
+Choose the amount of control you need in the moment.
 
 | Mode | Stems | Best for |
 | --- | --- | --- |
-| Realtime | Vocals, Bass, Drums, Piano, Others | Live adjustment, streaming, quick practice |
-| Karaoke HQ | Lead Vocal, Accompaniment | Karaoke, covers, vocal reduction |
+| Realtime | Vocals, Bass, Drums, Piano, Others | Live listening, livestreaming, quick practice |
+| Karaoke HQ | Lead Vocal, Accompaniment | Karaoke, covers, vocal reduction, clean backing tracks |
 | 8 Stems HQ | Lead Vocal, Backing Vocal, Guitar, Bass, Drums, Piano, Wind, Others | Arrangement study, instrument practice, performance mixes |
 
-## OBS
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-karaoke.png" alt="OpenStems karaoke backing track controls" width="620">
+</p>
+
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-8-stems.png" alt="OpenStems 8-stem controls" width="620">
+</p>
+
+## Why It Feels Better
+
+- It starts as a real music player, not a utility panel.
+- It lets you shape the song while playback continues.
+- It moves fast enough for live use.
+- It works for both simple OBS streams and DAW-based singing setups.
+
+## See It In Action
+
+### Use It In OBS
 
 For everyday livestreaming, open OBS, play music in Pear OpenStems, shape the mix, then click `Send to OBS`.
 
-![Pear OpenStems sending audio to OBS](docs/assets/screenshots/pear-openstems-send-to-obs.png)
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-send-to-obs.png" alt="Pear OpenStems sending audio to OBS" width="620">
+</p>
 
-## DAW / Audio Unit
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-obs.png" alt="Pear OpenStems in OBS" width="620">
+</p>
 
-For singing livestreams and recording sessions, send the backing track into your DAW and mix it with vocals, effects, monitoring, and recording tracks.
+### Use It In Your DAW
+
+For singing livestreams and recording sessions, send the backing track into your DAW and mix it beside vocals, effects, monitoring, and recording tracks.
 
 1. Open your DAW or recording software.
 2. Create a stereo instrument track, Software Instrument track, or Audio Unit Generator track.
@@ -72,42 +108,37 @@ For singing livestreams and recording sessions, send the backing track into your
 
 Different macOS DAWs name Audio Unit tracks differently. The important part is the same: create an instrument-style Audio Unit track, load Pear OpenStems, keep the track audible, then send music from the player.
 
-![Pear OpenStems in recording software](docs/assets/screenshots/pear-openstems-recording-software.png)
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-send-to-daw.png" alt="Pear OpenStems sending audio to recording software" width="620">
+</p>
 
-## Install
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-recording-software.png" alt="Pear OpenStems in recording software" width="620">
+</p>
 
-1. Download the macOS `.pkg` from [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases).
+## Install The macOS Package
+
+1. Download the Pear OpenStems macOS `.pkg` release from [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases).
 2. Open the package and finish installation.
 3. Launch Pear OpenStems from Applications.
+4. Play music as usual.
+5. Open the OpenStems control center when you want key change, vocal control, stem balance, backing tracks, OBS output, or DAW output.
 
 If macOS asks for confirmation before first launch, open `System Settings > Privacy & Security` and allow Pear OpenStems.
 
-## Screenshots
+## Quick Starts
 
-<details>
-<summary><strong>View product screenshots</strong></summary>
+### Change Key
 
-### Realtime Stem Control
+Play a song, move the key control, then return to `0` when you want the original key.
 
-![Pear OpenStems realtime stem controls](docs/assets/screenshots/pear-openstems-realtime.png)
+### Make A Karaoke Or Cover Backing Track
 
-### Karaoke And Backing Tracks
+Choose Karaoke HQ, lower or mute the lead vocal, then sing, rehearse, record, or stream.
 
-![OpenStems karaoke backing track controls](docs/assets/screenshots/pear-openstems-karaoke.png)
+### Practice An Instrument
 
-### Up To 8 Music Parts
-
-![OpenStems 8-stem controls](docs/assets/screenshots/pear-openstems-8-stems.png)
-
-### OBS Livestreaming
-
-![Pear OpenStems in OBS](docs/assets/screenshots/pear-openstems-obs.png)
-
-### Send Backing Tracks To Recording Software
-
-![Pear OpenStems sending audio to recording software](docs/assets/screenshots/pear-openstems-send-to-daw.png)
-
-</details>
+Choose Realtime or 8 Stems HQ, lower the part you want to play yourself, and keep the rest of the band in the mix.
 
 ## Troubleshooting
 
@@ -132,22 +163,19 @@ Pear OpenStems is built on the official open-source [Pear Desktop](https://githu
 
 Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pear-desktop) 项目开发。Pear Desktop 是播放器基础，OpenStems 是新增的音乐控制体验。
 
-### 它能做什么
+### 被解锁的音乐播放器
 
-- 播放中升降调。
-- 降低或静音主唱。
-- 调整人声、鼓、贝斯、钢琴和其他声部。
-- 把当前混音送进 OBS。
-- 通过 Pear OpenStems Audio Unit 插件把伴奏送进 DAW。
+普通播放器把一首歌当成一整块声音。Pear OpenStems 保留播放器体验，同时让歌曲可以被你拿来唱、演、直播、练习和创作。
 
 ### 适合这些场景
 
-- 普通直播：把音乐直接送进 OBS。
-- 唱歌直播：把伴奏送进 DAW，和人声、效果、监听一起混音。
-- K歌、翻唱、练唱和快速升降调。
-- 乐器练习、学编曲和现场伴奏。
+- 普通直播：把当前音乐混音送进 OBS。
+- 唱歌直播：把伴奏送进 DAW，和人声、效果、监听一起混。
+- K歌和翻唱：降低或静音主唱，快速得到伴奏。
+- 乐器练习：保留乐队伴奏，降低你想自己演奏的声部。
+- 学歌和听编曲：听清主唱、和声、鼓、贝斯、钢琴、吉他和其他声部。
 
-### 分轨模式
+### 三种分轨模式
 
 | 模式 | 可控制的音乐部分 | 适合什么 |
 | --- | --- | --- |
