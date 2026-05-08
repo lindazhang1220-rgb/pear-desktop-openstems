@@ -8,6 +8,8 @@
 
 ### A Pear Desktop extension that turns a music player into a stem-aware source for Live, Cover, practice, and DAW performance.
 
+No virtual audio driver. No manual audio patchbay. Install the package, open Pear OpenStems, and play.
+
 [Download macOS .pkg](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases)
 |
 [OBS Live Setup](#obs-live-setup)
@@ -40,6 +42,8 @@
 Pear OpenStems is built on the official open-source [Pear Desktop](https://github.com/pear-devs/pear-desktop) project.
 
 Pear Desktop provides the familiar desktop player foundation. OpenStems adds a music-control layer for key change, lead vocal control, accompaniment, stem balance, OBS output, and DAW output.
+
+No virtual audio driver, no manual audio patchbay, and no extra cable-style setup. Install the macOS package, open Pear OpenStems, and start shaping the music.
 
 Use it when a song needs to become a Live source, a Cover backing track, a rehearsal band, an arrangement reference, or a DAW input.
 
@@ -170,6 +174,8 @@ Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pe
 ### 关于 Pear OpenStems
 
 普通播放器把一首歌当成一整块声音。Pear OpenStems 保留播放器体验，同时让歌曲可以进入 Live、Cover、练习、录音和 DAW 混音场景。
+
+无需虚拟声卡，无需手动音频跳线配置。安装 macOS `.pkg`，打开 Pear OpenStems，就能开始使用。
 
 ### 下载和安装
 
