@@ -1,28 +1,20 @@
-# Pear OpenStems
-
 <div align="center">
 
-<h3>Turn Pear Desktop into a stem-aware music player for Live, Cover, practice, and DAW performance.</h3>
+# Pear OpenStems
 
-<p>
-Built on the official open-source
-<a href="https://github.com/pear-devs/pear-desktop">Pear Desktop</a> project.
-Pear Desktop is the player foundation. OpenStems adds the music-control layer for stems, backing tracks, OBS, and DAW routing.
-</p>
+[![GitHub release](https://img.shields.io/github/release/lindazhang1220-rgb/pear-desktop-openstems.svg?style=for-the-badge)](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases/)
+[![macOS package](https://img.shields.io/badge/macOS-.pkg-111111.svg?style=for-the-badge&logo=apple)](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases)
+[![Based on Pear Desktop](https://img.shields.io/badge/Based_on-Pear_Desktop-5ed9c7.svg?style=for-the-badge)](https://github.com/pear-devs/pear-desktop)
 
-<p>
-<a href="https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases"><strong>Download macOS .pkg</strong></a>
- |
-<a href="#where-it-helps">Where it helps</a>
- |
-<a href="#three-ways-to-shape-the-music">Stem modes</a>
- |
-<a href="#use-it-in-obs">OBS</a>
- |
-<a href="#use-it-in-your-daw">DAW / Audio Unit</a>
- |
-<a href="#chinese-guide">Chinese Guide</a>
-</p>
+### A Pear Desktop extension that turns a music player into a stem-aware source for Live, Cover, practice, and DAW performance.
+
+[Download macOS .pkg](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases)
+|
+[OBS Live Setup](#obs-live-setup)
+|
+[DAW / Audio Unit Setup](#daw--audio-unit-setup)
+|
+[Chinese Guide](#chinese-guide)
 
 </div>
 
@@ -30,48 +22,58 @@ Pear Desktop is the player foundation. OpenStems adds the music-control layer fo
   <img src="docs/assets/screenshots/pear-openstems-realtime.png" alt="Pear OpenStems realtime stem controls" width="760">
 </p>
 
-## From Playback To Performance
+## Content
 
-Most music players keep a song locked as one flat mix.
+- [About](#about)
+- [Download](#download)
+- [What OpenStems Adds](#what-openstems-adds)
+- [Stem Modes](#stem-modes)
+- [OBS Live Setup](#obs-live-setup)
+- [DAW / Audio Unit Setup](#daw--audio-unit-setup)
+- [Quick Start](#quick-start)
+- [Troubleshooting](#troubleshooting)
+- [Project Note](#project-note)
+- [Chinese Guide](#chinese-guide)
 
-Pear OpenStems keeps the familiar Pear Desktop listening experience, then gives the song musical handles: key, lead vocal, accompaniment, stems, OBS output, and DAW output.
+## About
 
-Use it when a track needs to become a Live source, a Cover backing track, a rehearsal band, an arrangement reference, or a DAW input.
+Pear OpenStems is built on the official open-source [Pear Desktop](https://github.com/pear-devs/pear-desktop) project.
 
-## Where It Helps
+Pear Desktop provides the familiar desktop player foundation. OpenStems adds a music-control layer for key change, lead vocal control, accompaniment, stem balance, OBS output, and DAW output.
 
-<table>
-<tr>
-<td width="50%">
+Use it when a song needs to become a Live source, a Cover backing track, a rehearsal band, an arrangement reference, or a DAW input.
 
-<h3>Live</h3>
-<p>Shape the music inside Pear OpenStems, then send a controlled mix to OBS as part of your Live setup.</p>
+## Download
 
-</td>
-<td width="50%">
+Download the macOS package from [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases).
 
-<h3>Cover</h3>
-<p>Transpose the song, lower the lead vocal, and build a backing track that sits naturally under your voice.</p>
+1. Download `Pear-OpenStems.pkg`.
+2. Open the package and finish installation.
+3. Launch Pear OpenStems from Applications.
+4. Play music as usual.
+5. Open the OpenStems control center when you want to shape the track.
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+If macOS asks for confirmation before first launch, open `System Settings > Privacy & Security` and allow Pear OpenStems.
 
-<h3>Practice</h3>
-<p>Keep the band in the mix, reduce the part you want to play yourself, and rehearse against the original performance.</p>
+## What OpenStems Adds
 
-</td>
-<td width="50%">
+### Live
 
-<h3>DAW Session</h3>
-<p>Send the backing track into your DAW while your vocal chain, monitor mix, effects, and recording tracks stay in one session.</p>
+Shape the music inside Pear OpenStems, then send a controlled stem mix to OBS as part of your Live setup.
 
-</td>
-</tr>
-</table>
+### Cover
 
-## Three Ways To Shape The Music
+Transpose the song, lower the lead vocal, and build a backing track that sits naturally under your voice.
+
+### Practice
+
+Keep the band in the mix, reduce the part you want to play yourself, and rehearse against the original performance.
+
+### DAW Session
+
+Send the backing track into your DAW while your vocal chain, monitor mix, effects, and recording tracks stay in one session.
+
+## Stem Modes
 
 Choose the amount of control you need in the moment.
 
@@ -81,44 +83,35 @@ Choose the amount of control you need in the moment.
 | Karaoke HQ | Lead Vocal, Accompaniment | Cover performance, vocal reduction, clean backing tracks |
 | 8 Stems HQ | Lead Vocal, Backing Vocal, Guitar, Bass, Drums, Piano, Wind, Others | Arrangement study, instrument practice, performance mixes |
 
-<table>
-<tr>
-<td width="50%" align="center">
-  <img src="docs/assets/screenshots/pear-openstems-karaoke.png" alt="OpenStems Karaoke HQ backing track controls" width="430">
-</td>
-<td width="50%" align="center">
-  <img src="docs/assets/screenshots/pear-openstems-8-stems.png" alt="OpenStems 8-stem controls" width="430">
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-karaoke.png" alt="OpenStems Karaoke HQ backing track controls" width="620">
+</p>
 
-## Why It Feels Better
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-8-stems.png" alt="OpenStems 8-stem controls" width="620">
+</p>
 
-- It starts as a real music player, not a utility panel.
-- It gives you performance controls without leaving the player.
-- It turns the same song into a Live source, Cover backing track, practice mix, or DAW input.
-- It supports both simple OBS setups and DAW-based vocal sessions.
+## OBS Live Setup
 
-## See It In Action
+Use OBS when you want Pear OpenStems to act as a controllable music source for Live streaming.
 
-### Use It In OBS
+1. Open OBS.
+2. Play music in Pear OpenStems.
+3. Choose a stem mode and shape the mix.
+4. Click `Send to OBS`.
+5. Use the Pear OpenStems source in your OBS scene.
 
-For Live streaming, open OBS, play music in Pear OpenStems, shape the stem mix, then click `Send to OBS`.
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-send-to-obs.png" alt="Pear OpenStems sending audio to OBS" width="620">
+</p>
 
-<table>
-<tr>
-<td width="50%" align="center">
-  <img src="docs/assets/screenshots/pear-openstems-send-to-obs.png" alt="Pear OpenStems sending audio to OBS" width="430">
-</td>
-<td width="50%" align="center">
-  <img src="docs/assets/screenshots/pear-openstems-obs.png" alt="Pear OpenStems as an OBS audio source" width="430">
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-obs.png" alt="Pear OpenStems as an OBS audio source" width="620">
+</p>
 
-### Use It In Your DAW
+## DAW / Audio Unit Setup
 
-For Cover, Live vocal, rehearsal, and recording sessions, send the backing track into your DAW and mix it beside your vocal chain, effects, monitor mix, and recording tracks.
+Use a DAW when you want the backing track in the same session as your vocal chain, effects, monitor mix, and recording tracks.
 
 1. Open your DAW or recording software.
 2. Create a stereo instrument track, Software Instrument track, or Audio Unit Generator track.
@@ -129,28 +122,15 @@ For Cover, Live vocal, rehearsal, and recording sessions, send the backing track
 
 Different macOS DAWs name Audio Unit tracks differently. The important part is the same: create an instrument-style Audio Unit track, load Pear OpenStems, keep the track audible, then send music from the player.
 
-<table>
-<tr>
-<td width="50%" align="center">
-  <img src="docs/assets/screenshots/pear-openstems-send-to-daw.png" alt="Pear OpenStems sending audio to a DAW" width="430">
-</td>
-<td width="50%" align="center">
-  <img src="docs/assets/screenshots/pear-openstems-recording-software.png" alt="Pear OpenStems inside recording software" width="430">
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-send-to-daw.png" alt="Pear OpenStems sending audio to a DAW" width="620">
+</p>
 
-## Install The macOS Package
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-recording-software.png" alt="Pear OpenStems inside recording software" width="620">
+</p>
 
-1. Download the Pear OpenStems macOS `.pkg` release from [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases).
-2. Open the package and finish installation.
-3. Launch Pear OpenStems from Applications.
-4. Play music as usual.
-5. Open the OpenStems control center when you want key change, vocal control, stem balance, backing tracks, OBS output, or DAW output.
-
-If macOS asks for confirmation before first launch, open `System Settings > Privacy & Security` and allow Pear OpenStems.
-
-## Quick Starts
+## Quick Start
 
 ### Change Key
 
@@ -187,9 +167,17 @@ Pear OpenStems is built on the official open-source [Pear Desktop](https://githu
 
 Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pear-desktop) 项目开发。Pear Desktop 是播放器基础，OpenStems 是新增的音乐控制体验。
 
-### 被解锁的音乐播放器
+### 关于 Pear OpenStems
 
 普通播放器把一首歌当成一整块声音。Pear OpenStems 保留播放器体验，同时让歌曲可以进入 Live、Cover、练习、录音和 DAW 混音场景。
+
+### 下载和安装
+
+1. 从 [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases) 下载 `Pear-OpenStems.pkg`。
+2. 打开安装包并完成安装。
+3. 从 Applications 启动 Pear OpenStems。
+
+如果 macOS 首次启动前要求确认，请打开 `系统设置 > 隐私与安全性`，允许 Pear OpenStems。
 
 ### 适合这些场景
 
@@ -209,7 +197,10 @@ Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pe
 
 ### 在 OBS 中使用
 
-打开 OBS，在 Pear OpenStems 中播放音乐并调整好分轨，然后点击 `Send to OBS`。
+1. 打开 OBS。
+2. 在 Pear OpenStems 中播放音乐并调整好 stem mix。
+3. 点击 `Send to OBS`。
+4. 在 OBS 场景中使用 Pear OpenStems 声音源。
 
 ### 在 DAW 中使用
 
@@ -221,13 +212,5 @@ Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pe
 6. 点击 `Send to DAW`。
 
 不同 macOS DAW 的 Audio Unit 音轨名称可能不同。关键点相同：新建 instrument 类型的 Audio Unit 音轨，加载 Pear OpenStems，保持音轨可听，然后从播放器发送音乐。
-
-### 安装
-
-1. 从 [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases) 下载 macOS `.pkg`。
-2. 打开安装包并完成安装。
-3. 从 Applications 启动 Pear OpenStems。
-
-如果 macOS 首次启动前要求确认，请打开 `系统设置 > 隐私与安全性`，允许 Pear OpenStems。
 
 </details>
