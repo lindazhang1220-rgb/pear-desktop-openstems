@@ -2,12 +2,12 @@
 
 <div align="center">
 
-<h3>Turn a music player into a live backing track, stem mixer, karaoke tool, and performance source.</h3>
+<h3>Turn Pear Desktop into a stem-aware music player for Live, Cover, practice, and DAW performance.</h3>
 
 <p>
 Built on the official open-source
 <a href="https://github.com/pear-devs/pear-desktop">Pear Desktop</a> project.
-Pear Desktop is the player foundation. OpenStems is the added music-control experience.
+Pear Desktop is the player foundation. OpenStems adds the music-control layer for stems, backing tracks, OBS, and DAW routing.
 </p>
 
 <p>
@@ -30,31 +30,46 @@ Pear Desktop is the player foundation. OpenStems is the added music-control expe
   <img src="docs/assets/screenshots/pear-openstems-realtime.png" alt="Pear OpenStems realtime stem controls" width="760">
 </p>
 
-## The Music Player, Unlocked
+## From Playback To Performance
 
 Most music players keep a song locked as one flat mix.
 
 Pear OpenStems keeps the familiar Pear Desktop listening experience, then gives the song musical handles: key, lead vocal, accompaniment, stems, OBS output, and DAW output.
 
-Use it when you want the track to become part of a live set, a stream, a cover, a rehearsal, or a recording session.
+Use it when a track needs to become a Live source, a Cover backing track, a rehearsal band, an arrangement reference, or a DAW input.
 
 ## Where It Helps
 
-### Sing
+<table>
+<tr>
+<td width="50%">
 
-Change key, lower the lead vocal, and make the track fit your voice.
+<h3>Live</h3>
+<p>Shape the music inside Pear OpenStems, then send a controlled mix to OBS as part of your Live setup.</p>
 
-### Stream
+</td>
+<td width="50%">
 
-Send a controllable music mix to OBS without exporting audio files.
+<h3>Cover</h3>
+<p>Transpose the song, lower the lead vocal, and build a backing track that sits naturally under your voice.</p>
 
-### Perform
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-Keep the band in the mix, reduce the part you want to play yourself, and rehearse with the original song.
+<h3>Practice</h3>
+<p>Keep the band in the mix, reduce the part you want to play yourself, and rehearse against the original performance.</p>
 
-### Create
+</td>
+<td width="50%">
 
-Send the backing track into your production setup while your vocal chain, monitor mix, and effects stay in your DAW.
+<h3>DAW Session</h3>
+<p>Send the backing track into your DAW while your vocal chain, monitor mix, effects, and recording tracks stay in one session.</p>
+
+</td>
+</tr>
+</table>
 
 ## Three Ways To Shape The Music
 
@@ -62,42 +77,48 @@ Choose the amount of control you need in the moment.
 
 | Mode | Stems | Best for |
 | --- | --- | --- |
-| Realtime | Vocals, Bass, Drums, Piano, Others | Live listening, livestreaming, quick practice |
-| Karaoke HQ | Lead Vocal, Accompaniment | Karaoke, covers, vocal reduction, clean backing tracks |
+| Realtime | Vocals, Bass, Drums, Piano, Others | Live monitoring, quick rehearsal, on-the-fly stem balance |
+| Karaoke HQ | Lead Vocal, Accompaniment | Cover performance, vocal reduction, clean backing tracks |
 | 8 Stems HQ | Lead Vocal, Backing Vocal, Guitar, Bass, Drums, Piano, Wind, Others | Arrangement study, instrument practice, performance mixes |
 
-<p align="center">
-  <img src="docs/assets/screenshots/pear-openstems-karaoke.png" alt="OpenStems karaoke backing track controls" width="620">
-</p>
-
-<p align="center">
-  <img src="docs/assets/screenshots/pear-openstems-8-stems.png" alt="OpenStems 8-stem controls" width="620">
-</p>
+<table>
+<tr>
+<td width="50%" align="center">
+  <img src="docs/assets/screenshots/pear-openstems-karaoke.png" alt="OpenStems Karaoke HQ backing track controls" width="430">
+</td>
+<td width="50%" align="center">
+  <img src="docs/assets/screenshots/pear-openstems-8-stems.png" alt="OpenStems 8-stem controls" width="430">
+</td>
+</tr>
+</table>
 
 ## Why It Feels Better
 
 - It starts as a real music player, not a utility panel.
-- It lets you shape the song while playback continues.
-- It moves fast enough for live use.
-- It works for both simple OBS streams and DAW-based singing setups.
+- It gives you performance controls without leaving the player.
+- It turns the same song into a Live source, Cover backing track, practice mix, or DAW input.
+- It supports both simple OBS setups and DAW-based vocal sessions.
 
 ## See It In Action
 
 ### Use It In OBS
 
-For everyday livestreaming, open OBS, play music in Pear OpenStems, shape the mix, then click `Send to OBS`.
+For Live streaming, open OBS, play music in Pear OpenStems, shape the stem mix, then click `Send to OBS`.
 
-<p align="center">
-  <img src="docs/assets/screenshots/pear-openstems-send-to-obs.png" alt="Pear OpenStems sending audio to OBS" width="620">
-</p>
-
-<p align="center">
-  <img src="docs/assets/screenshots/pear-openstems-obs.png" alt="Pear OpenStems in OBS" width="620">
-</p>
+<table>
+<tr>
+<td width="50%" align="center">
+  <img src="docs/assets/screenshots/pear-openstems-send-to-obs.png" alt="Pear OpenStems sending audio to OBS" width="430">
+</td>
+<td width="50%" align="center">
+  <img src="docs/assets/screenshots/pear-openstems-obs.png" alt="Pear OpenStems as an OBS audio source" width="430">
+</td>
+</tr>
+</table>
 
 ### Use It In Your DAW
 
-For singing livestreams and recording sessions, send the backing track into your DAW and mix it beside vocals, effects, monitoring, and recording tracks.
+For Cover, Live vocal, rehearsal, and recording sessions, send the backing track into your DAW and mix it beside your vocal chain, effects, monitor mix, and recording tracks.
 
 1. Open your DAW or recording software.
 2. Create a stereo instrument track, Software Instrument track, or Audio Unit Generator track.
@@ -108,13 +129,16 @@ For singing livestreams and recording sessions, send the backing track into your
 
 Different macOS DAWs name Audio Unit tracks differently. The important part is the same: create an instrument-style Audio Unit track, load Pear OpenStems, keep the track audible, then send music from the player.
 
-<p align="center">
-  <img src="docs/assets/screenshots/pear-openstems-send-to-daw.png" alt="Pear OpenStems sending audio to recording software" width="620">
-</p>
-
-<p align="center">
-  <img src="docs/assets/screenshots/pear-openstems-recording-software.png" alt="Pear OpenStems in recording software" width="620">
-</p>
+<table>
+<tr>
+<td width="50%" align="center">
+  <img src="docs/assets/screenshots/pear-openstems-send-to-daw.png" alt="Pear OpenStems sending audio to a DAW" width="430">
+</td>
+<td width="50%" align="center">
+  <img src="docs/assets/screenshots/pear-openstems-recording-software.png" alt="Pear OpenStems inside recording software" width="430">
+</td>
+</tr>
+</table>
 
 ## Install The macOS Package
 
@@ -132,9 +156,9 @@ If macOS asks for confirmation before first launch, open `System Settings > Priv
 
 Play a song, move the key control, then return to `0` when you want the original key.
 
-### Make A Karaoke Or Cover Backing Track
+### Make A Cover Backing Track
 
-Choose Karaoke HQ, lower or mute the lead vocal, then sing, rehearse, record, or stream.
+Choose Karaoke HQ, lower or mute the lead vocal, then sing, rehearse, record, or perform Live.
 
 ### Practice An Instrument
 
@@ -165,23 +189,23 @@ Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pe
 
 ### 被解锁的音乐播放器
 
-普通播放器把一首歌当成一整块声音。Pear OpenStems 保留播放器体验，同时让歌曲可以被你拿来唱、演、直播、练习和创作。
+普通播放器把一首歌当成一整块声音。Pear OpenStems 保留播放器体验，同时让歌曲可以进入 Live、Cover、练习、录音和 DAW 混音场景。
 
 ### 适合这些场景
 
-- 普通直播：把当前音乐混音送进 OBS。
-- 唱歌直播：把伴奏送进 DAW，和人声、效果、监听一起混。
-- K歌和翻唱：降低或静音主唱，快速得到伴奏。
+- Live：把可控的 stem mix 送进 OBS，作为直播声音源。
+- Cover：降低或静音 lead vocal，快速得到 backing track。
+- DAW 人声场景：把伴奏送进 DAW，和 vocal chain、效果、监听、录音轨一起混。
 - 乐器练习：保留乐队伴奏，降低你想自己演奏的声部。
-- 学歌和听编曲：听清主唱、和声、鼓、贝斯、钢琴、吉他和其他声部。
+- 编曲学习：听清 lead vocal、backing vocal、drums、bass、piano、guitar 和其他声部。
 
 ### 三种分轨模式
 
 | 模式 | 可控制的音乐部分 | 适合什么 |
 | --- | --- | --- |
-| Realtime | Vocals、Bass、Drums、Piano、Others | 边播边调、直播、快速练习 |
-| Karaoke HQ | Lead Vocal、Accompaniment | K歌、翻唱、降低主唱 |
-| 8 Stems HQ | Lead Vocal、Backing Vocal、Guitar、Bass、Drums、Piano、Wind、Others | 学编曲、乐器练习、现场伴奏混音 |
+| Realtime | Vocals、Bass、Drums、Piano、Others | Live 监听、快速练习、边播边调 |
+| Karaoke HQ | Lead Vocal、Accompaniment | Cover、vocal reduction、干净 backing track |
+| 8 Stems HQ | Lead Vocal、Backing Vocal、Guitar、Bass、Drums、Piano、Wind、Others | 编曲学习、乐器练习、performance mix |
 
 ### 在 OBS 中使用
 
