@@ -52,7 +52,7 @@ Use it when a song needs to become a Live source, a Cover backing track, a rehea
 
 Download the macOS package from [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases).
 
-1. Download `Pear-OpenStems.pkg`.
+1. Download `Pear-OpenStems-MacOS.pkg`.
 2. Open the package and finish installation.
 3. Launch Pear OpenStems from Applications.
 4. Play music as usual.
@@ -188,7 +188,7 @@ Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pe
 
 ### 下载和安装
 
-1. 从 [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases) 下载 `Pear-OpenStems.pkg`。
+1. 从 [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases) 下载 `Pear-OpenStems-MacOS.pkg`。
 2. 打开安装包并完成安装。
 3. 从 Applications 启动 Pear OpenStems。
 4. 播放音乐后，看右下角发光的 OpenStems 图标；点击它打开 stem controls、key change、OBS output 和 DAW output。
