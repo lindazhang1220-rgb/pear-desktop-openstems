@@ -28,6 +28,7 @@ No virtual audio driver. No manual audio patchbay. Install the package, open Pea
 
 - [About](#about)
 - [Download](#download)
+- [Open The Control Center](#open-the-control-center)
 - [What OpenStems Adds](#what-openstems-adds)
 - [Stem Modes](#stem-modes)
 - [OBS Live Setup](#obs-live-setup)
@@ -58,6 +59,14 @@ Download the macOS package from [GitHub Releases](https://github.com/lindazhang1
 5. Open the OpenStems control center when you want to shape the track.
 
 If macOS asks for confirmation before first launch, open `System Settings > Privacy & Security` and allow Pear OpenStems.
+
+## Open The Control Center
+
+After the player is open, look for the glowing OpenStems button in the bottom-right corner. Click it when you want stem controls, key change, OBS output, or DAW output.
+
+<p align="center">
+  <img src="docs/assets/screenshots/pear-openstems-entry-icon.png" alt="Pear OpenStems entry button in the player" width="760">
+</p>
 
 ## What OpenStems Adds
 
@@ -182,6 +191,7 @@ Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pe
 1. 从 [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases) 下载 `Pear-OpenStems.pkg`。
 2. 打开安装包并完成安装。
 3. 从 Applications 启动 Pear OpenStems。
+4. 播放音乐后，看右下角发光的 OpenStems 图标；点击它打开 stem controls、key change、OBS output 和 DAW output。
 
 如果 macOS 首次启动前要求确认，请打开 `系统设置 > 隐私与安全性`，允许 Pear OpenStems。
 
