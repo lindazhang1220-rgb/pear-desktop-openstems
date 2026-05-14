@@ -1,6 +1,6 @@
 <div align="center">
 
-# Pear OpenStems
+# Pear-OpenStems
 
 [![GitHub release](https://img.shields.io/github/release/lindazhang1220-rgb/pear-desktop-openstems.svg?style=for-the-badge)](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases/)
 [![macOS package](https://img.shields.io/badge/macOS-.pkg-111111.svg?style=for-the-badge&logo=apple)](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases)
