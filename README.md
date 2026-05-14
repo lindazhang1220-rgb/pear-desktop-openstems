@@ -67,7 +67,7 @@ If macOS asks for confirmation before first launch, open `System Settings > Priv
 
 ### Windows
 
-1. Download the Pear OpenStems Windows setup package.
+1. Download `Pear-OpenStems-win_x64-1.0.0-setup.exe`.
 2. Run the installer and finish installation.
 3. Launch Pear OpenStems from the Start menu or desktop shortcut.
 4. Play music as usual.
@@ -233,7 +233,7 @@ Pear OpenStems 基于官方开源 [Pear Desktop](https://github.com/pear-devs/pe
 
 #### Windows
 
-1. 从 [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases) 下载 Windows setup 安装包。
+1. 从 [GitHub Releases](https://github.com/lindazhang1220-rgb/pear-desktop-openstems/releases) 下载 `Pear-OpenStems-win_x64-1.0.0-setup.exe`。
 2. 运行安装器并完成安装。
 3. 从 Start menu 或桌面快捷方式启动 Pear OpenStems。
 4. 播放音乐后，打开 OpenStems 控制中心。
